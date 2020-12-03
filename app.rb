@@ -39,7 +39,7 @@ class App < Sinatra::Base
     case @result
     
       when "add"
-      (@num1 + @num2).to_i
+      (@num1 + @num2).to_s
     end
   end
 end
